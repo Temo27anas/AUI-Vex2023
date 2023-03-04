@@ -34,14 +34,7 @@ int Piloting() {
     rightMotorB.spin(
         forward, (Controller1.Axis3.value() - Controller1.Axis1.value() + Controller1.Axis4.value())*0.5, pct);
 
-    // if ((Controller1.Axis3.value() + Controller1.Axis4.value()) == 0) {
-    //   leftMotorA.spin(reverse, Controller1.Axis1.value(), pct);
-    //   leftMotorB.spin(reverse, -Controller1.Axis1.value(), pct);
-    //   rightMotorA.spin(reverse, -Controller1.Axis1.value(), pct);
-    //   rightMotorB.spin(reverse, Controller1.Axis1.value(), pct);
-    // }
-
-    //std::cout << "Axis4: " << Controller1.Axis4.value() << "\n";
+    
     
 
     
